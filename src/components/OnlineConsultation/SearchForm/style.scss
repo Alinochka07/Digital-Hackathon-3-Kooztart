@@ -1,0 +1,53 @@
+@import "../../../styles/variables";
+
+.search__form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 3.98056px 0px 15.9222px;
+  gap: 19.9px;
+  width: 539.63px;
+  height: 40.6px;
+  background: #FFFFFF;
+  border: 0.398056px solid #3C7ECF;
+  border-radius: 11.9417px;
+  margin: 0 0 120px;
+
+  input{
+    border: none;
+    height: 100%;
+    width: 90%;
+    outline: none;
+
+    &::placeholder{
+      font-family: $openSans;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 11.9417px;
+      line-height: 100%;
+      color: #3E4F88;
+    }
+  }
+
+  button{
+    height: 100%;
+    width: max-content;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    img{
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+
+.search-form__wrap{
+  width: 100%;
+}
+
+@media(max-width: 590px) {
+  .search__form {
+    width: 100%;
+  }
+}

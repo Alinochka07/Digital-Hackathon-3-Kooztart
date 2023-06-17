@@ -1,0 +1,44 @@
+@import "../../../styles/variables";
+
+.advice-button{
+  padding: 10px 0 0 0;
+  position: relative;
+  width: 101.85px;
+  height: 101.09px;
+  top: 30px;
+  left: 45%;
+  border-radius: 50%;
+  background: #E84F6D;
+  border: none;
+  z-index: 1;
+  font-family: $openSans;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16.7089px;
+  line-height: 23px;
+  text-align: center;
+
+  color: #FFFFFF;
+
+  &:before{
+    content: "";
+    position: absolute;
+    width: 131.91px;
+    height: 125.32px;
+    background: #E84F6D;
+    border-radius: 50%;
+    filter: blur(8.35443px);
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+}
+
+
+@media(max-width:850px) {
+  .advice-button {
+    left: 40%;
+  }
+}

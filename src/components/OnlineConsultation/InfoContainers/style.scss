@@ -1,0 +1,91 @@
+@import "../../../styles/variables";
+
+.info-containers{
+  display: flex;
+  position: relative;
+  height: 136px;
+  bottom: -55px;
+
+  div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 19px;
+
+    p{
+      margin-top: 18px;
+      text-align: center;
+    }
+
+    &:nth-child(odd) {
+      background: #4F93E8;
+
+      p{
+        font-family: $openSans;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 25px;
+        color: #FFFFFF;
+
+      }
+    }
+
+    &:nth-child(even) {
+      background: #FFFFFF;
+
+      p{
+        width: 278px;
+        font-family: $openSans;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 25px;
+        color: #4F93E8;
+      }
+    }
+  }
+}
+
+@media(max-width: 1100px) {
+  .info-containers div:nth-child(even) p {
+    width: 250px;
+    font-size: 17px;
+  }
+
+  .info-containers {
+    height: max-content;
+  }
+}
+
+@media(max-width: 1000px) {
+  .info-containers div:nth-child(even){
+    padding: 19px 7px;
+  }
+  .info-containers div:nth-child(even) p {
+    width: 210px;
+    font-size: 14px;
+  }
+}
+
+@media(max-width: 820px) {
+  .info-containers {
+    flex-wrap: wrap;
+    bottom: -97px;
+  }
+  .info-containers div{
+    width: 50%;
+  }
+  .info-containers div:first-child{
+    border-bottom: 2px solid #FFFFFF;
+  }
+  .info-containers div:nth-child(2){
+    border-bottom: 2px solid #4F93E8;
+  }
+  .info-containers div:nth-child(odd){
+    padding: 19px 7px;
+  }
+  .info-containers div:nth-child(odd) p {
+    font-size: 15px;
+  }
+}
