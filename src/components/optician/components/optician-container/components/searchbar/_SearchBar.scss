@@ -1,0 +1,27 @@
+.search__bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 4px 0px 8px;
+  gap: 20px;
+  isolation: isolate;
+
+  background: #ffffff;
+  border: 0.398056px solid #3c7ecf;
+  border-radius: 11.9417px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+  width: 412px;
+}
+
+.search__bar input {
+  border: none;
+  padding: 9px 15px;
+  outline: none;
+  font-size: 1rem;
+}
+
+.search__bar svg {
+  padding: 10px;
+}
