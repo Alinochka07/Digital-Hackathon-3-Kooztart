@@ -46,7 +46,7 @@ const Ambulance = () => {
                     Квалификациялуу дарыгерлердин катышуусуз денени кыймылдатуу, 
                     эгерде алар бар болсо, анда такыр болбойт!</p>
             </div>
-            <div className='ambulance__content flex flex-jc-c'>
+            <div className='ambulance__content flex flex-jc-c flex-fw-w'>
                 <div className='lists__scroll'>
                     <div className='ambulance__lists'>
                         {ambulance_list_items.map((lists, i) => {
