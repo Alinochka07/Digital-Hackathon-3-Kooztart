@@ -1,0 +1,36 @@
+@import "../../../styles/variables";
+
+nav.navbar {
+    background-color: $mainBackgroundColor;
+    width: 1440px;
+    height: 85px;
+}
+.navbar__menu {
+    width: 100%;
+}
+
+.menu__items {
+    padding: 2em;
+}
+.menu__items > a, .menu__reglan, .lan__select  {
+    color: $blueTextColor;
+    font-size: $menuFontSize;
+    font-weight: 700;
+    cursor: pointer;
+}
+.logo {
+    margin-left: 64px;
+}
+.navbar__menu__reglan {
+    margin-right: 64px;
+}
+.menu__reglan {
+    color: #104F8A;
+    font-weight: 600;
+}
+select.lan__select {
+    background: none;
+    border: none;
+    color: $pinkTextColor;
+    margin-left: 1em;
+}
