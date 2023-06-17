@@ -1,0 +1,61 @@
+@import "../../../styles/variables";
+
+
+section.ambulance {
+    width: 100vw;
+    height: 833px;
+    background-image: url('../../../images/background/tez-jardam-bg.jpg');
+    background-repeat: round;
+    h1 {
+        font-size: $headersFontSize;
+        color: $whiteTextColor;
+    }
+    p {
+        font-size: 22px;
+        font-weight: 400;
+        color: $whiteTextColor;
+    }
+    .lists__scroll {
+        height: 400px;
+        width: 50%;
+        overflow: scroll;
+        
+        .ambulance__lists {
+            height: 400px;
+            width: 85%;
+            margin-bottom: 104px;
+            
+        }
+        .ambulance__list {
+            padding: 1.3em 2em;
+            border-bottom: 1px solid white;
+            color: $whiteTextColor;
+            cursor: pointer;
+            border: 1px solid white;
+        }
+        .ambulance__list:first-child, .ambulance__list:last-child {
+            padding: 2em 2em;
+        }
+        .active {
+            background-color: white;
+            color: $blueTextColor;
+        }
+    } 
+    .scroll__indicator {
+        width: 10px;
+    }
+    .ambulance__content {
+        width: 90%;
+    }
+    .ambulance__video {
+        width: 35em;
+        height: 400px;
+        border: 1px solid white;
+        margin-left: 63px;
+    }
+    
+}
+
+
+
+
