@@ -1,0 +1,69 @@
+@import "../../../styles/variables";
+.choose-specialist-carousel__wrap{
+  width: 100%;
+  margin: 41px 0 0;
+}
+.choose-specialist-carousel__box {
+  display: flex!important;
+  flex-direction: column;
+  align-items: center;
+  div {
+    width: 173.1px;
+    height: 164px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 7.46837px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+      width: 101px;
+      height: 108px;
+      object-fit: contain;
+    }
+  }
+
+  h6{
+    font-family: $openSans;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 38px;
+    text-align: center;
+    color: #367DED;
+  }
+}
+
+.slick-next,
+.slick-prev {
+  width: 23px;
+  height: 23px;
+
+  &:before{
+    content: "";
+  }
+}
+
+.slick-next {
+  background-image: url("../../../images/rightArrow.png");
+
+  &:hover, &:focus{
+    background-image: url("../../../images/rightArrow.png");
+  }
+}
+
+.slick-prev {
+  background-image: url("../../../images/leftArrow.png");
+
+  &:hover, &:focus{
+    background-image: url("../../../images/leftArrow.png");
+  }
+}
+
+@media(max-width: 590px) {
+  .choose-specialist-carousel__wrap {
+    width: 80%;
+    margin: 41px 0 0;
+  }
+}

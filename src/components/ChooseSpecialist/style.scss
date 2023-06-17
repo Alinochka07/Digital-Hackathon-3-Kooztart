@@ -1,0 +1,47 @@
+@import "../../styles/variables";
+
+#choose-specialist{
+  padding: 162px 0 147px;
+  background: #EAEFF5;
+}
+
+.choose-specialist__wrap{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h5{
+    margin: 0 0 62px;
+    font-family: $openSans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 49px;
+    color: #111111;
+  }
+}
+
+@media(max-width:820px) {
+  #choose-specialist{
+    padding: 200px 0 140px;
+  }
+}
+
+@media(max-width:520px) {
+  #choose-specialist{
+    padding: 400px 0 120px;
+  }
+}
+
+
+@media(max-width:516px) {
+  #choose-specialist{
+    padding: 500px 0 100px;
+  }
+}
+
+@media(max-width:390px) {
+  #choose-specialist{
+    padding: 600px 0 80px;
+  }
+}

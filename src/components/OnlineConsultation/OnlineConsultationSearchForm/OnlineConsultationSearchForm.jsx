@@ -2,10 +2,10 @@ import React from 'react';
 import "./style.scss"
 import searchIcon from "../../../images/ButtonIcon.png"
 
-const SearchForm = () => {
+const OnlineConsultationSearchForm = () => {
     return (
-        <div className={"search-form__wrap"}>
-            <form className={"search__form"}>
+        <div className={"online-consultation-search-form__wrap"}>
+            <form className={"online-consultation-search__form"}>
                 <input type="text" placeholder={"Издөө...."}/>
                 <button>
                     <img src={searchIcon} alt=""/>
@@ -16,4 +16,4 @@ const SearchForm = () => {
     );
 };
 
-export default SearchForm;
+export default OnlineConsultationSearchForm;

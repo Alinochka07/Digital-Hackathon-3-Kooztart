@@ -1,6 +1,6 @@
 @import "../../../styles/variables";
 
-.search__form{
+.online-consultation-search__form{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -42,12 +42,12 @@
   }
 }
 
-.search-form__wrap{
+.online-consultation-search-form__wrap{
   width: 100%;
 }
 
 @media(max-width: 590px) {
-  .search__form {
+  .online-consultation-search__form {
     width: 100%;
   }
 }
