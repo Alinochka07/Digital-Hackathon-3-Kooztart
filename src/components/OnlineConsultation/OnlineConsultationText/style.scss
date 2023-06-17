@@ -39,9 +39,21 @@
     }
   }
 }
-
+@media(max-width: 820px) {
+  .online-consultation-text__wrap p{
+    font-size: 28px;
+  }
+  .online-consultation-text__wrap button span{
+    font-size: 20px;
+  }
+}
 @media(max-width: 590px) {
   .online-consultation-text__wrap p {
     width: 100%;
+    font-size: 25px;
+  }
+
+  .online-consultation-text__wrap button span{
+    font-size: 18px;
   }
 }
