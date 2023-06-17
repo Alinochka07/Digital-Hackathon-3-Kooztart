@@ -6,7 +6,7 @@ import './_index.scss';
 
 const OpticianBarContent = () => {
   return (
-    <div>
+    <div className="main__optician__bar">
       <MedicineBox />
       <SearchBar />
       <OpticianBox />
