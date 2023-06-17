@@ -1,0 +1,33 @@
+.main_counter {
+  border: 1px solid #a055a8;
+  border-radius: 30px;
+  width: 137px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+
+  color: #1f66c8;
+}
+
+.main_counter button {
+  background: none;
+  border: none;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 27px;
+  text-align: center;
+
+  color: #1f66c8;
+}
