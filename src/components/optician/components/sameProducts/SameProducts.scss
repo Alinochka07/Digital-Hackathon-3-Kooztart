@@ -1,0 +1,41 @@
+@import "../../../../styles/_variables.scss";
+
+
+.same__products {
+    width: 100%;
+    padding: 5vh 0 10vh 0;
+    border: 1px solid grey;
+    margin-top: 10vh;
+
+    
+    h3 {
+        padding: 5vh 0 5vh 5vw;
+        font-size: 25px;
+        font-weight: 700;
+        color: #4E4E4E;
+    }
+    .products {
+        width: 100%;
+        p {
+            font-size: 16px;
+            color: #252C32;
+            font-weight: 400;
+        }
+        h5 {
+            color: #4E4E4E;
+            font-weight: 700;
+            font-size: 24px;
+        }
+        p, h5 {
+            padding-top: 5px;
+        }
+        button.round_pink_button {
+            margin-top: 5vh;
+            width: 100px;
+            border: 1px solid #e84f6d;
+            border-radius: 2em;
+            height: 41px;
+            background: #e84f6d;
+        }
+    }
+}
