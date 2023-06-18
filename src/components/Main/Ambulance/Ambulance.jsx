@@ -34,9 +34,6 @@ const Ambulance = () => {
         
     }
 
-    console.log(chosenList)
-
-   
 
     return (
         <section className='ambulance flex flex-fw-w flex-jc-c'>
