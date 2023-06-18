@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import './styles/style.scss';
 import "./styles/style.scss";
 import { Route, Routes } from "react-router-dom";
@@ -9,7 +8,7 @@ function App() {
     <div className='App'>
       <Routes>
         {routesLinks.map(route => {
-          return <Route path={route.path} element={route.element}/>
+          return <Route key={route.name} path={route.path} element={route.element}/>
         })}
       </Routes>
     </div>
