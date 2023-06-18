@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import "./style.scss";
 import openEyeIcon from "../../images/openEye.png"
 import closeEyeIcon from "../../images/closeEye.png"
@@ -6,6 +6,7 @@ import googleIcon from "../../images/googleIcon.png"
 import instagramIcon from "../../images/instagramIcon.png"
 import facebookIcon from "../../images/facebookIcon.png"
 import telegramIcon from "../../images/telegramIcon.png"
+import axios from "axios";
 
 const RegisterForm = () => {
     const [showPass, setShowPass] = useState(false)
@@ -48,6 +49,26 @@ const RegisterForm = () => {
         event.preventDefault()
         console.log(form)
     }
+
+    // useEffect(() => {
+    //     const loadAPI = async () => {
+    //         const config = {
+    //             method: 'post',
+    //             url: 'http://192.168.88.203:8080/api/auth/registration',
+    //             headers: { 
+    //                 'Content-type': 'application/json'
+    //             }
+    //         };
+    
+    //         const response = await axios(config);
+    //         console.log(response);  
+    //         setForm(response.data);
+    //     }
+    //     loadAPI();
+    // }, []);
+
+
+
     return (
         <form className={"reg__form"} onSubmit={onSubmitForm}>
             <h6>Катталуу</h6>

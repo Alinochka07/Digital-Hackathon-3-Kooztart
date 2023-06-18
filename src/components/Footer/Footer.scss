@@ -1,0 +1,45 @@
+@import "../../styles/_variables.scss";
+
+.footer__section {
+    padding: 5vh 10vw;
+    background-color: #4F93E8;
+    height: 517px;
+    color: $whiteTextColor;
+    width: 100%;
+    .text_center{
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .footer__menus {
+        row-gap: 18px;
+        .underline {
+            text-decoration: underline;
+        }
+        .social__media__icons {
+            height: 62px;
+            width: 329px;
+            border: 1px solid white;
+            border-radius: 2em;
+
+            .social {
+                padding: 0 0.5em;
+            }
+            .social:first-child {
+                padding-left: 0;
+            }
+        }
+    }
+    .footer__menu_section, .logo__section {
+        width: 100%;
+        margin: 5vh;
+    }
+    .logo__section {
+        width: 50%;
+        h3 {
+            text-align: center;
+            font-size: 28px;
+            font-weight: 600;
+        }
+    }
+}
