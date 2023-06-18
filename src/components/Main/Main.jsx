@@ -6,7 +6,6 @@ import OnlineConsultation from '../OnlineConsultation/OnlineConsultation';
 const Main = () => {
     return (
         <main className='mainSection'>
-            
             <OnlineConsultation/>
             <Ambulance/>
             <Optician/>
