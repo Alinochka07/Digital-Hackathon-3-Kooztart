@@ -1,0 +1,124 @@
+@import "../../styles/variables";
+
+.input-label__wrap {
+  margin-bottom: 15px;
+  position: relative;
+  width: 393px;
+  height: 42.52px;
+  background: #FFFFFF;
+  border: 0.398056px solid rgba(54, 125, 237, 0.91);
+  border-radius: 11.9417px;
+
+
+  input {
+    border-radius: 11.9417px;
+    width: 100%;
+    height: 100%;
+    border: none;
+    position: absolute;
+    outline: none;
+    text-indent: 20px;
+  }
+
+  label {
+    cursor: inherit;
+    position: absolute;
+    top: 13px;
+    left: 20px;
+    z-index: 1;
+    font-family: $openSans;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    color: rgba(54, 125, 237, 0.56);
+    transition: ease-in-out .5s;
+  }
+
+  button{
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    border: none;
+    background: transparent;
+
+    img{
+      width: 21px;
+    }
+  }
+}
+
+.input-label__wrap > input:focus + label {
+  transform: translate(-15px, -20px) !important;
+  background: #FFFFFF;
+  padding: 0 5px;
+}
+
+.reg__form {
+  width: 395px;
+  height: 558px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h6 {
+    margin: 0 0 15.13px;
+    font-family: $openSans;
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    color: #4F93E8;
+  }
+
+  p {
+    font-family: $openSans;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    color: rgba(54, 125, 237, 0.56);
+    margin-bottom: 15px;
+  }
+
+  input[type=submit] {
+    width: 393px;
+    height: 61.19px;
+    border: none;
+    background: #E84F6D;
+    border-radius: 29.4px;
+    font-family: $openSans;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23.52px;
+    line-height: 32px;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+  }
+
+  .social-media__wrap{
+    width: 328px;
+    height: 42.52px;
+    background: #FFFFFF;
+    border: 0.398056px solid rgba(54, 125, 237, 0.91);
+    border-radius: 11.9417px;
+    padding: 3px 47px 3px 33px;
+    display: flex;
+    column-gap: 33px;
+    margin-bottom: 15px;
+
+    button{
+      cursor: pointer;
+      border: none;
+      background: transparent;
+
+      img{
+        width: 36px;
+        height: 36px;
+      }
+    }
+  }
+}
