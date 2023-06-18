@@ -1,4 +1,7 @@
-<<<<<<< HEAD
+@import "./_flexbox.scss";
+@import "./_mixins.scss";
+@import "./_variables.scss";
+
 *{
   margin: 0;
   padding: 0;
@@ -16,10 +19,6 @@
     margin: 0 auto;
   }
 }
-=======
-@import "./flexbox";
-@import "./mixins";
-@import "./variables";
 
 * {
     text-decoration: none;
@@ -32,4 +31,4 @@ h1, .textCenter {
     text-align: center;
 }
 
->>>>>>> main
+
