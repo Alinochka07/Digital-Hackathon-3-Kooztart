@@ -2,7 +2,7 @@
 
 nav.navbar {
     background-color: $mainBackgroundColor;
-    width: 1440px;
+    width: 100vw;
     height: 85px;
 }
 .navbar__menu {
@@ -12,7 +12,7 @@ nav.navbar {
 .menu__items {
     padding: 2em;
 }
-.menu__items > a, .menu__reglan, .lan__select  {
+.menu__items > a, .menu__items, .menu__reglan, .lan__select  {
     color: $blueTextColor;
     font-size: $menuFontSize;
     font-weight: 700;
