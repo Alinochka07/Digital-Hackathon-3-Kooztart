@@ -5,7 +5,7 @@ import "./style.scss"
 const OnlineConsultationText = () => {
     return (
         <div className={"online-consultation-text__wrap"}>
-            <h1>Дарыгерден онлайн кеңеш</h1>
+            <h1 style={{textAlign: "left"}}>Дарыгерден онлайн кеңеш</h1>
             <p>Эми сиз күнү-түнү адиске суроо берип, тез жооп ала аласыз</p>
             <button>
                 <span>Кайрылуу</span>

@@ -12,6 +12,15 @@ const Navbar = () => {
 
     const navigate = useNavigate();
 
+    const handleSignIn = () => {
+        navigate("/login")
+    }
+
+    const handleSignUp = () => {
+        navigate("/register")
+    }
+
+
     return (
         <nav className='navbar flex'>
             <div className='navbar__menu flex flex-ai-c flex-jc-sb'>
@@ -29,8 +38,8 @@ const Navbar = () => {
                    
                 </div>
                 <div className='navbar__menu__reglan flex flex-ai-c flex-jc-fe'>
-                    <div className='menu__reglan'>Кирүү /</div>
-                    <div className='menu__reglan'>Катталуу</div>
+                    <div onClick={handleSignIn} className='menu__reglan'>Кирүү /</div>
+                    <div onClick={handleSignUp} className='menu__reglan'>Катталуу</div>
                     <div className='menu__reglan flex flex-ai-c'>
                         <select className='lan__select'>
                             <option>KG</option>

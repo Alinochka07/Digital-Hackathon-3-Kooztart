@@ -10,8 +10,8 @@ import Register from "./pages/Register/Register";
 
 const routesLinks = [
     {path: "/", name: "Главная", element: <Home/>, isPrivate: false, isShown: false},
-    {path: "/register", name: "Катталуу", element: <Register/>, isPrivate: false, isShown: true},
-    {path: "/login", name: "Кируу", element: <Login/>, isPrivate: false, isShown: true},
+    {path: "/register", name: "Катталуу", element: <Register/>, isPrivate: false, isShown: false},
+    {path: "/login", name: "Кируу", element: <Login/>, isPrivate: false, isShown: false},
     {path: "/profile", name: "Жеке баракча", element: <ProfilePage/>, isPrivate: true, isShown: false},
     {path: "/doctors", name: "Дарыгерлер", element: <Doctors/>, isPrivate: true, isShown: true},
     {path: "/negotiations", name: "Сүйлөшүүлөр", element: <Negotiations/>, isPrivate: true, isShown: false},
