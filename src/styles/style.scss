@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
   margin: 0;
   padding: 0;
@@ -15,3 +16,20 @@
     margin: 0 auto;
   }
 }
+=======
+@import "./flexbox";
+@import "./mixins";
+@import "./variables";
+
+* {
+    text-decoration: none;
+    font-family: Inter;
+}
+body {
+    margin: 0;
+}
+h1, .textCenter {
+    text-align: center;
+}
+
+>>>>>>> main

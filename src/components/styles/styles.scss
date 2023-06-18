@@ -1,0 +1,15 @@
+@import "../../styles/mixins";
+@import "../../styles/variables";
+@import "../../styles/flexbox";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Open+Sans&display=swap');
+@import "../Header/Header";
+@import "../Header/Navbar/Navbar";
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+    background-color: $mainBackgroundColor;
+}

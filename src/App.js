@@ -1,16 +1,17 @@
-import './App.css';
-import {Routes, Route} from "react-router-dom";
-import Home from "./pages/Home/Home";
-import Register from "./pages/Register/Register";
-import Login from "./pages/Login/Login";
+import './styles/style.scss';
+import "./styles/style.scss";
+import { Route, Routes } from "react-router-dom";
+import routesLinks from "./RoutesLinks";
 
 function App() {
   return (
+    <div className='App'>
       <Routes>
-        <Route exact path={"/"} element={<Home/>}/>
-        <Route exact path={"/register"} element={<Register/>}/>
-        <Route exact path={"/login"} element={<Login/>}/>
+        {routesLinks.map(route => {
+          return <Route key={route.name} path={route.path} element={route.element}/>
+        })}
       </Routes>
+    </div>
   );
 }
 
